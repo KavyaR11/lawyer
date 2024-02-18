@@ -1,0 +1,245 @@
+*{
+padding: 0px;
+margin: 0px;
+}
+
+html{
+	scroll-behavior: smooth;
+}
+body{
+font-family: 'Open Sans', sans-serif;
+font-size: 14px;
+line-height: 24px;
+}
+h1, h2, h3, h4, h5, h6{
+font-family: 'Montserrat',sans-serif;
+
+}
+
+a, a:hover{
+	text-decoration: none;
+}
+                                                           /* HEADER SECTION */
+
+.header{
+	width: 100%;
+	padding: 15px 0px;
+	background: #fff;
+
+}
+
+.header .navbar-expand-lg .navbar-nav .nav-link
+{
+
+	font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #28377e;
+    letter-spacing: 1px;
+    margin: 0px 0px 0px 20px;
+ }
+ .header .navbar-expand-lg .navbar-nav .nav-link:hover,.header .navbar-expand-lg .navbar-nav .nav-link:focus{
+color: #f15e2b;
+
+ }
+                                                         /* HEADER SECTION */
+                                                         /* banner-section */
+
+
+.banner-section{
+	width: 100%;
+    padding: 140px 0px 80px;	
+    background: url("../images/slider.png") center top no-repeat;
+    background-size: cover;
+
+
+}
+.banner-section h1{
+	font-size: 52px;
+	line-height: 62px;
+	font-weight: 700;
+	text-align: center;
+	color: #fff;
+	text-transform: uppercase;
+
+} 
+.arrow{
+	width: 100%;
+	padding: 180px 0px 0px;
+	text-align: center;
+
+} 
+.arrow .fa{
+	color: #fff;
+	font-size: 35px;
+}
+                                                     /* banner-section */
+
+                                                     /* about-section */
+.about-us{
+	width: 100%;
+	padding: 80px 0px;
+
+}
+.about-inner{
+	width: 100%;
+}
+.about-us .about-inner .title{
+	width: 100%;
+	padding:0px 0px 20px 0px;
+}
+
+.about-us .about-inner .title .divider{
+	width: 80px;
+	height: 3px;
+	background:#f15e2b ;
+	margin: 0px 0px 15px 0px;
+}
+.about-us .about-inner .title h2{
+	font-size: 42px;
+	line-height: 52px;
+	font-weight: 700;
+	color: #28377e;
+	text-transform: uppercase;
+
+} 
+.about-us .about-inner p{
+font-size: 14px;
+line-height: 24px;
+color: #b0b0b1;
+
+}
+
+
+                                                     /* about-section */
+
+                                                     /* what-about */
+.what-do{
+	width: 100%;
+	padding: 80px 0px;
+	background:url("../images/dobg.png")center top no-repeat;
+	background-size: cover;
+}
+
+.what-do .title{
+	width: 100%;
+	padding:0px 0px 100px;
+}
+
+.what-do .title .divider{
+	width: 80px;
+	height: 3px;
+	background:#f15e2b ;
+	margin: 0px auto 15px;
+}
+.what-do .title h2{
+	font-size: 42px;
+	line-height: 52px;
+	font-weight: 700;
+	color: #28377e;
+	text-transform: uppercase;
+    text-align: center;
+} 
+
+.what-do .inner-do .img-fluid{
+	width: 100%;
+} 
+.inner-do{
+	width: 100%;
+	position:relative ;
+
+
+}
+.inner-content{
+	text-align: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translate(0%, 0%);
+}
+
+.inner-content h5{
+font-size: 20px;
+font-weight: 600;
+text-transform: uppercase;
+color: #fff;
+letter-spacing: 1px;
+}
+
+.long-arrow{
+	position: absolute;
+    top: 30%;
+    width: 100%;
+    transform: translate(0%, 0%);
+}
+
+
+                                                    /* what-about */
+                                                    /* attorney-section */
+
+.attorney{
+	width: 100%;
+	padding: 150px 0px;
+	background:url("../images/atbg.png")center top no-repeat;
+	background-size: cover;
+} 
+.attorney .title{
+	width: 100%;
+	padding:100px 0px 20px;
+}
+
+.attorney .title .divider{
+	width: 80px;
+	height: 3px;
+	background:#f15e2b ;
+	margin: 0px 0px 15px;
+}
+.attorney .title h2{
+	font-size: 42px;
+	line-height: 52px;
+	font-weight: 700;
+	color: #fff;
+	text-transform: uppercase;
+    text-align: left;
+}   
+.attorney p{
+font-size: 14px;
+line-height: 24px;
+color: #929dcf;
+}
+.attorney .btn-link{
+	text-decoration: none;
+	color: #f2622c;
+	padding: 0px;
+	font-size: 14px;
+	font-weight: 600;
+}
+.attorney .btn-link:hover{
+	color:#fff ;
+}
+.attorney .inner-do{
+	width: 100%;
+	position:relative ; 
+	margin-bottom: 25px;
+
+}
+.attorney .inner-do .inner-content{
+	text-align: left;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 80%;
+    transform: translate(10%, 0%);
+}
+
+.attorney .inner-do .inner-content h5{
+font-size: 20px;
+font-weight: 600;
+text-transform: uppercase;
+color: #fff;
+letter-spacing: 1px;
+}
+
+
+                                                    /* attorney-section */
